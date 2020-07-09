@@ -7,8 +7,3 @@ class Person(object):
     
     def saysHello(self):
         print(f"{self.Name} says Hello!")
-
-
-person = Person("Tom", 35)
-
-person.saysHello()
