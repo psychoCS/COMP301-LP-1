@@ -25,11 +25,13 @@ class Vector2D(object):
         return self.x, self.y
 
     #utility function for distance
+    '''
+    @staticmethod
     def Distance(vector1, vector2):
         diffXs = vector2.x - vector1.x
         diffYs = vector2.y - vector1.y
         return (diffXs * diffXs + diffYs * diffYs) ** 0.5
-        
+    '''
 
 
 
