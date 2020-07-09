@@ -1,3 +1,16 @@
+'''
+
+Author: Thiago
+Date: July 6, 2020
+
+'''
+
+"""
+Another multiline comment
+
+"""
+
+
 a, b, c  = 10, 10, None
 
 A, B, C = 20, 30, 40
@@ -44,6 +57,7 @@ for element in myArray:
 
     # functions need to be defined before we use them
     def sayHello():
+        print()
         print("Hello, World!")
 
     sayHello()
