@@ -7,5 +7,5 @@ class Student(Person):
         studentID = studentID
 
     def studies(self):
-    print(f"{self.Name} is studying")
-    print(f"{}")
+        print(f"{self.Name} is studying")
+        print(f"{self.Name}")
